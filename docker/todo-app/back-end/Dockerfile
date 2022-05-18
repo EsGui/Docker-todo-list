@@ -1,1 +1,5 @@
-
+FROM node:16
+WORKDIR /src
+EXPOSE 3001
+COPY . .
+CMD ["NPM", "START"]
