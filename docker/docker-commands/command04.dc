@@ -1,2 +1,1 @@
-docker container run -ti alpine
-cat /etc/lsb-release
+docker exec 01container cat /etc/os-release
